@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="./scripts/crew.js" defer></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/crew.css" />
+    <link rel="stylesheet" href="media.css" />
+
+    <title>Space tourism website | Crew</title>
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <div class="logo">
+          <img src="./assets/shared/logo.svg" alt="logo" />
+        </div>
+        <nav>
+          <div class="menu-icon open">
+            <img src="./assets/shared/icon-hamburger.svg" alt="ham-icon" />
+          </div>
+          <div class="nav-links">
+            <ul class="menu-list">
+              <div class="menu-icon close">
+                <img src="./assets/shared/icon-close.svg" alt="close-icon" />
+              </div>
+              <li>
+                <span style="font-weight: bold">00</span
+                ><a href="index.html">HOME</a>
+              </li>
+              <li>
+                <span style="font-weight: bold">01</span>
+                <a href="destinations.html">DESTINATION</a>
+              </li>
+              <li>
+                <span style="font-weight: bold">02</span>
+                <a href="crew.html">CREW</a>
+              </li>
+              <li>
+                <span style="font-weight: bold">03</span>
+                <a href="technologies.html">TECHNOLOGY</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="crew">
+        <div class="inner-crew">
+          <div class="title">
+            <span>02</span>
+            <h2>MEET YOUR CREW</h2>
+          </div>
+          <div class="member-slide flex">
+            <div class="crew-details">
+              <div class="member-details">
+                <h2></h2>
+                <h1></h1>
+                <p></p>
+              </div>
+              <div class="indicators">
+                <span onclick="showCrewMember(counter=1)"></span>
+                <span onclick="showCrewMember(counter=2)"></span>
+                <span onclick="showCrewMember(counter=3)"></span>
+                <span onclick="showCrewMember(counter=4)"></span>
+              </div>
+            </div>
+            <div class="member-image">
+              <img src="" alt="" />
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+/*Styling file for destinations.html file*/
+body {
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+}
+
+/*Destinations*/
+.destination-slide {
+  max-width: 1100px;
+  height: 670px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.destination-details {
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.destination-details > div {
+  padding: 1rem;
+}
+
+.dest-links span {
+  font-size: 1em;
+  font-family: "Barlow", sans-serif;
+  padding: 0.3rem;
+  cursor: pointer;
+  color: var(--color3);
+  text-align: center;
+  letter-spacing: 2.7px;
+}
+
+.dest-links span:hover {
+  border-bottom: 3px solid rgb(255, 255, 255, 0.5);
+}
+
+.dest-details h1 {
+  font-size: 3em;
+  font-family: "Bellefair", serif;
+  color: var(--color3);
+}
+.dest-details p {
+  color: var(--color2);
+}
+.measurements {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 0.77px solid var(--color2);
+}
+.measurements h4 {
+  color: var(--color2);
+  font-family: "Bellefair", serif;
+}
+.measurements h3 {
+  color: var(--color3);
+  font-family: "Bellefair", serif;
+}
+
+/*Queries for devices with max-width :930px*/
+@media screen and (max-width: 930px) {
+  body {
+    background-image: url(../assets/destination/background-destination-tablet.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .destination-slide {
+    flex-direction: column;
+    text-align: center;
+  }
+  .destination-image img {
+    width: 390px;
+  }
+  .title h2,
+  .title span {
+    font-size: 1.7em;
+  }
+}
+
+/*Queries for devices with max-width :700px*/
+@media screen and (max-width: 700px) {
+  body {
+    background-image: url(../assets/destination/background-destination-mobile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .inner-destinations {
+    height: 700px;
+  }
+
+  .destination-details {
+    margin: auto;
+  }
+  .measurements {
+    flex-direction: column;
+  }
+  .destination-image img {
+    width: 170px;
+  }
+}

@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&display=swap");
+:root {
+  --color1: #0b0d17;
+  --color2: #d0d6f9;
+  --color3: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+header,
+footer,
+section {
+  width: 100%;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Bellefair", serif;
+  font-weight: 100;
+}
+h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+}
+
+p {
+  line-height: 1.6;
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 1rem;
+}
+a {
+  text-decoration: none;
+  color: var(--color3);
+  font-weight: 100;
+}
+span {
+  font-weight: 100;
+}
+header {
+  padding: 0;
+}
+.title {
+  margin: 0rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.title span {
+  color: rgb(255, 255, 255, 0.5);
+  margin-right: 0.77rem;
+  font-size: 2em;
+}
+.title h2 {
+  color: var(--color3);
+  font-size: 2.25em;
+  font-family: "Bellefair", serif;
+}
+
+/*Styling Navigation and logo*/
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo {
+  margin: 1rem;
+}
+
+nav {
+  width: 700px;
+  background: rgb(11, 13, 23, 0.5);
+  position: relative;
+}
+
+nav::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 500px;
+  height: 1px;
+  background: rgb(255, 255, 255, 0.3);
+  right: 96%;
+  top: 63%;
+}
+
+.menu-icon {
+  display: none;
+  float: right;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu-list li {
+  display: flex;
+  color: var(--color3);
+  font-family: "Barlow", sans-serif;
+  padding-top: 2rem;
+  letter-spacing: 2.7px;
+  font-size: 1em;
+}
+.menu-list li:hover {
+  border-bottom: 2px solid rgb(255, 255, 255, 0.5);
+}
+
+.menu-list li span {
+  margin-right: 0.5rem;
+}
+/*.menu-list li.active {
+  border-bottom: 2.5px solid var(--color3);
+}*/
+.menu-list.active {
+  right: 0;
+}
+.currentLink {
+  border-bottom: 2.5px solid var(--color3);
+}
+.currentBtn {
+  background-color: var(--color3);
+  color: var(--color1);
+}
+
+.flex {
+  display: flex;
+}
