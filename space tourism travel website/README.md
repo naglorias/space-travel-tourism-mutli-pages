@@ -35,7 +35,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Size Version](./screenshots/Desktop-version.png)
-![Tablet Size Version](./screenshots/tablet-version.png)
+![Tablet Size Version](screenshots/tablet version.png)
 ![Mobile Size Version](./screenshots/mobile-version.png)
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
