@@ -43,7 +43,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/naglorias/space-travel-tourism-mutli-pages.git)
-- Live Site URL: (https://spacing.netlify.app/)
+- Live Site URL: (https://spacing.vercel.app/)
 
 ## My process
 
